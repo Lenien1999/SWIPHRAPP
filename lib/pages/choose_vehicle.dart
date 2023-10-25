@@ -193,6 +193,31 @@ class _ChooseVehicleState extends State<ChooseVehicle> {
                     ],
                   ),
                 ),
+                Align(
+                  alignment: Alignment.bottomCenter,
+                  child: Container(
+                    height: 100,
+                    color: Colors.white,
+                    child: Container(
+                      margin: const EdgeInsets.symmetric(
+                          vertical: 8, horizontal: 36),
+                      height: 50,
+                      width: double.infinity,
+                      decoration: BoxDecoration(
+                          borderRadius: BorderRadius.circular(30),
+                          color: Colors.black),
+                      child: Center(
+                        child: Text(
+                          'Submit',
+                          style: appTextStyle(
+                              fw: FontWeight.w400,
+                              size: 16,
+                              color: Colors.white),
+                        ),
+                      ),
+                    ),
+                  ),
+                )
               ],
             ),
           ),
